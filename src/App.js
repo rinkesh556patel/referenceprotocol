@@ -1,14 +1,14 @@
 import logo from './images/logo.png';
 import laptopVideo from './laptopVideo.mp4'
 import laptop from './images/laptop.png'
-import uslogo from './images/united-states.png'
+// import uslogo from './images/united-states.png'
 import './App.css';
 function App() {
   return (
     <div className="banner">
       <div className="navbar">
         <div className="navlogo">
-          <img src={logo} className="logoimg" />
+          <img src={logo} className="logoimg" alt="" />
         </div>
         <div className="navoptions">
           <p>HOW IT WORKS</p>
