@@ -1,28 +1,31 @@
-import logo from './images/logo.png';
+import logos from './images/logo6.svg';
+import Vector1 from './images/Vector-1.png';
 import laptopVideo from './laptopVideo.mp4'
 import laptop from './images/laptop.png'
 // import uslogo from './images/united-states.png'
 import './App.css';
 function App() {
   return (
+    <div className="App">
     <div className="banner">
       <div className="navbar">
         <div className="navlogo">
-          <img src={logo} className="logoimg" alt="" />
+          <img src={logos} className="logoimg" alt="" />
+          <img src={Vector1} className="logoimg1" alt="" />
         </div>
         <div className="navoptions">
-          <p>HOW IT WORKS</p>
+          {/* <p>HOW IT WORKS</p>
           <p>ABOUT US</p>
           <p>FEATURES</p>
           <p>TESTIMONIAL</p>
-          <p>CONTACT</p>
+          <p>CONTACT</p> */}
         </div>
         <div className="navdropdown">
-          <select className="country-select">
+          {/* <select className="country-select">
             <option style={{backgroundImage:"url('./images/united-states.png')"}} value="US">USA</option>
             <option style={{backgroundImage:"url('./images/united-states.png')"}} value="IN">India</option>
             <option style={{backgroundImage:"url('./images/united-states.png')"}} value="UK">England</option>
-          </select>
+          </select> */}
         </div>
       </div>
       <div className="banner-content">
@@ -41,6 +44,8 @@ function App() {
           </div>
         </div>
       </div>
+    </div>
+
     </div>
   );
 }
