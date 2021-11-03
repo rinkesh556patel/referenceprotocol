@@ -6,7 +6,6 @@
 }
 .banner{
   color:#fff;
-  background-color: black;
   /* background-image: url('./images/bg6.png'); */
   width: 100%;
   background-position: center;
@@ -84,6 +83,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  z-index: 10;
 }
 .hero-text{
   font-family: Poppins;
@@ -120,6 +120,7 @@
   margin-top: 20px;
   cursor: pointer;
   z-index: 11;
+  background-color: #000;
 }
 .laptopdiv{
   display: flex;
@@ -233,4 +234,13 @@
     top: -19px;
     left: 25px;
   }
+}
+
+@media(max-width: 580px){
+  .incubated{
+    font-size: 18px;
+  }
+  .hero-text{
+    font-size: 30px;
+  } 
 }
