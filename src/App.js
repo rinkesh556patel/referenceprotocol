@@ -1,7 +1,7 @@
 import logos from './images/logo11.png';
-import Vector1 from './images/Vector-1.png';
-import laptopVideo from './laptopVideo.mp4'
-import laptop from './images/laptop.png'
+// import Vector1 from './images/Vector-1.png';
+// import laptopVideo from './laptopVideo.mp4'
+// import laptop from './images/laptop.png'
 // import uslogo from './images/united-states.png'
 import './App.css';
 import Particles from "react-tsparticles";
@@ -77,11 +77,11 @@ class App extends Component {
                 interactivity: {
                   events: {
                     onClick: {
-                      enable: true,
+                      enable: false,
                       mode: "push",
                     },
                     onHover: {
-                      enable: true,
+                      enable: false,
                       mode: "repulse",
                     },
                     resize: true,
