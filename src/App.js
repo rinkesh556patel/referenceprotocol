@@ -43,17 +43,19 @@ class App extends Component {
             </div>
             <div className="banner-content">
               <div className="hero">
-                <div className="navlogo">
+                <div className="navlogo1">
                   <img src={logos} className="logoimg" alt="" />
                   {/* <img src={Vector1} className="logoimg1" alt="" /> */}
+                  <h2 className="hero-text">Reference Protocol</h2>
                 </div>
-                <h2 className="hero-text">Reference Protocol</h2>
+               
                 {/* <h3 className="incubated">Incubated By Kalamint</h3>
                 <div className="comming-soon" >Coming Soon</div> */}
+                
               </div>
               <div className="laptopdiv">
                 <div className="vids">
-                  <p>
+                  <p >
                     Reference Protocol is a decentralized, multichain Web3 assets data layer
                     that provides easy to consume, standardized on-chain Web3 assets data
                     aggregated from various blockchain networks and
