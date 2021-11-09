@@ -22,16 +22,10 @@ class App extends Component {
 
     return (
       <>
-
-
         <div className="App">
-
           <div className="banner" >
             <div className="navbar">
-              <div className="navlogo">
-                <img src={logos} className="logoimg" alt="" />
-                {/* <img src={Vector1} className="logoimg1" alt="" /> */}
-              </div>
+
               {/*  <div className="navoptions">
               <p>HOW IT WORKS</p>
           <p>ABOUT US</p>
@@ -49,19 +43,34 @@ class App extends Component {
             </div>
             <div className="banner-content">
               <div className="hero">
+                <div className="navlogo">
+                  <img src={logos} className="logoimg" alt="" />
+                  {/* <img src={Vector1} className="logoimg1" alt="" /> */}
+                </div>
                 <h2 className="hero-text">Reference Protocol</h2>
-                <h3 className="incubated">Incubated By Kalamint</h3>
-                <div className="comming-soon" >Coming Soon</div>
+                {/* <h3 className="incubated">Incubated By Kalamint</h3>
+                <div className="comming-soon" >Coming Soon</div> */}
               </div>
-              {/* <div className="laptopdiv">
-              <div className="vids">
-                <img src={laptop} alt="" className="laptop" />
-                <video className="laptop-layer" loop autoPlay muted>
-                  <source src={laptopVideo} type="video/mp4" />
-                Your browser does not support HTML video.
-            </video>
+              <div className="laptopdiv">
+                <div className="vids">
+                  <p>
+                    Reference Protocol is a decentralized, multichain Web3 assets data layer
+                    that provides easy to consume, standardized on-chain Web3 assets data
+                    aggregated from various blockchain networks and
+                    marketplaces, for anyone building NFT applications.
+                  </p>
+                  <p>
+                    Reference Protocol provides solutions for decentralised application developers
+                    through seamless, scalable data via customizable, feature rich APIs, data
+                    streams, historical data and notification engines.
+                  </p>
+                  {/* <img src={laptop} alt="" className="laptop" />
+                  <video className="laptop-layer" loop autoPlay muted>
+                    <source src={laptopVideo} type="video/mp4" />
+                      Your browser does not support HTML video.
+                  </video> */}
+                </div>
               </div>
-            </div> */}
             </div>
             <Particles
               id="tsparticles"
